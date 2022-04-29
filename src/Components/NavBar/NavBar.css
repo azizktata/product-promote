@@ -1,0 +1,114 @@
+.nav-center {
+    background: #FFFFFF;
+    filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16)) drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
+    width: 100%;
+    position: sticky;
+    
+}
+  .nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav-toggle {
+    font-size: 1.5rem;
+    color: #5C5C5C;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+  .nav-toggle:hover {
+    color: #5C5C5C;
+    transform: rotate(90deg);
+  }
+  .sign-in{
+      display: none;
+  }
+.Logo{
+    display: flex;
+    align-items: center;
+}
+  .links a {
+    color: var(--clr-grey-3);
+    font-size: 1rem;
+    text-transform: capitalize;
+    transition: all 0.3s linear;
+    display: block;
+    padding: 0.5rem 1rem;
+    letter-spacing:0.1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .links-container {
+    height: 0;
+    overflow:hidden;
+    transition: all 0.3s linear;
+    
+  }
+  .show-container {
+    height: 10rem;
+  }
+  @media screen and (min-width:1000px) {
+    .nav-center {
+      width: auto;
+      display: flex;
+      align-items: center;
+        justify-content: space-between;
+        padding: 1rem 7rem;
+        
+    }
+    .nav-header {
+      padding: 0 ;
+    }
+   
+    .nav-toggle {
+      display: none;
+    }
+    .links-container {
+      height: auto !important;
+      width: auto;
+    }
+    .links {
+      display: flex;
+    }
+    .links a {
+      padding: 0;
+      margin: 0 1rem;
+      color: #6C5CE7;
+
+    }
+    .links a:hover {
+      padding: 0;
+      background: transparent;
+      letter-spacing: 0.2rem;
+    }
+    .sign-in{
+        display: flex;
+        background: #2D3436;
+        border-radius: 999px;
+        width: auto;
+        height: 2.5rem;
+        outline: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+        align-items: center;
+        letter-spacing: 0.25px;
+        padding: 0 1.5rem;
+        color: #FFFFFF;
+        text-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
+       cursor: pointer;
+    }
+    .sign-in:hover{
+        background-color: rgb(41, 40, 40);
+    }
+}

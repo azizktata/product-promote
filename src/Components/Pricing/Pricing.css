@@ -1,0 +1,43 @@
+.boss{
+    position: relative;
+    height: 115vmin;
+    
+    background-color: #FFF7DC;
+}
+
+h2{
+width: 100%;
+padding-left: 35%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 55px;
+line-height: 77px;
+letter-spacing: -1px;
+color: #2D3436;
+
+
+}
+h4{
+    margin: 2% 38%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #ADADAD;
+
+}
+@media screen and (max-width:900px) {
+    .boss h2{
+        width: 60%;
+    }
+    .boss h4{
+        width: 100%;
+    }
+    .boss{
+        height: 50%;
+    }
+    
+}
+

@@ -1,0 +1,17 @@
+.box{
+    width: 100%;
+    height: 550px;
+   opacity: 0.4;
+    z-index: -1;
+  position: absolute;
+}
+.rectangle{
+    background: #FFEAA7;
+    border-radius: 99px;
+    transform: rotate( deg);
+    width: 55%;
+    height: 70%;
+    top:0%;
+    left: 45%;
+    position: relative;
+}

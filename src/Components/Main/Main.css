@@ -1,0 +1,108 @@
+.Main{
+    width: 100%;
+    height: 120vmin;
+    z-index: 1;
+    position: relative;
+    
+}
+.Main h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 104px;
+    width: 100%;
+    margin: 2% 0%;
+    padding-left: 25%;
+    z-index: 1;
+    letter-spacing: -3px;
+
+    color: #2D3436;
+    text-shadow: 0px 4px 0px #FFFFFF;
+}
+.product{
+    color: #E84393;
+}
+.box1{
+    height: 27%;
+    width: 25%;
+    border-radius: 20px;
+    left: 34%;
+    top: 5%;
+    position: relative;
+    
+}
+.box2{
+    border-radius: 20px;
+    height: 40%;
+    width: 15%;
+    left: 18%;
+    bottom: 16%;
+    position: relative;
+}
+.box3{
+border-radius: 20px;
+height: 26%;
+    width: 16%;
+    left: 34%;
+    bottom: 33%;
+    position: relative;
+}
+.box4{
+    border-radius: 20px;
+    height: 20%;
+    width: 9%;
+    left: 60%;
+    bottom: 81%;
+    position: relative;
+    
+}
+.box5{
+    border-radius: 20px;
+    height: 20%;
+    width: 9%;
+    left: 70%;
+    bottom: 101%;
+    position: relative;
+}
+.box6{
+    border-radius: 20px;
+    height: 27%;
+    width: 18%;
+    left: 51%;
+    bottom: 99%;
+    position: relative;
+}
+.box7{
+    border-radius: 20px;
+    height: 20%;
+    width: 9%;
+    left: 70%;
+    bottom: 126%;
+    position: relative;
+}
+img{
+    width:100%;
+    height:100%;
+    border-radius: 20px;
+}
+.custom-shape-divider-bottom-1651213131 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1651213131 svg {
+    position: relative;
+    display: block;
+    width: calc(119% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-bottom-1651213131 .shape-fill {
+    fill: #FFF7DC;
+}
+
