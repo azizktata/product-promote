@@ -13,10 +13,10 @@ export default function Footer(){
                     <div className="for">
                         <h3>Follow us</h3>
                         <div className="socials">
-                        <img src={facebook} />
-                        <img src={linkdin} />
-                        <img src={slack} />
-                        <img src={twitter} />
+                        <img src={facebook} alt="logof"/>
+                        <img src={linkdin} alt="logol"/>
+                        <img src={slack} alt="logos"/>
+                        <img src={twitter} alt="logot"/>
                         </div>
                     
                     </div>

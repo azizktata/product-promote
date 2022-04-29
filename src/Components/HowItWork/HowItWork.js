@@ -17,25 +17,25 @@ export default function HowItWork() {
         gaps between your layouts, templates and developers to empower all involved.</p>
         <div className='cards'>
         <div className='card'>
-            <img src={support} />
+            <img src={support} alt="logo1"/>
             <h5>support</h5>     
             <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>   
             <button >learn more</button>
         </div>
         <div className='card'>
-            <img src={time} />
+            <img src={time} alt="logo2"/>
             <h5>respond-time</h5>     
             <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>   
             <button>learn more</button>
         </div>
         <div className='card'>
-            <img src={speed} />
+            <img src={speed} alt="logo3"/>
             <h5>delivery</h5>     
             <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>   
             <button>learn more</button>
         </div>
         <div className='card'>
-            <img src={error} />
+            <img src={error} alt="logo4"/>
             <h5>report</h5>     
             <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>   
             <button>learn more</button>

@@ -6,16 +6,11 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardHeader from '@mui/material/CardHeader';
-import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
-import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { AiOutlineStar } from "react-icons/ai";
-import { styled } from '@mui/material/styles';
 
-import Stack from '@mui/material/Stack';
-import { purple } from '@mui/material/colors';
 export default function Pricing(){
    
     return (
@@ -33,7 +28,7 @@ export default function Pricing(){
               sm={tier.title === 'Enterprise' ? 12 : 6}
               md={4}
             >
-              <Card>
+              <Card sx={{filter: "drop-shadow(0px 8px 8px rgba(38, 50, 56, 0.12)) drop-shadow(0px 16px 24px rgba(38, 50, 56, 0.08))"}}>
                 <CardHeader
                 
                   title={tier.title}
@@ -45,7 +40,7 @@ export default function Pricing(){
                   }}
                   
                   sx={{
-                   
+                    
                     backgroundColor: (theme) =>
                       theme.palette.mode === 'light'
                         ? theme.palette.grey[200]

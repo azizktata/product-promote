@@ -8,8 +8,7 @@ import camera from "../../images/camera.jpg"
 import nike from "../../images/nike.jpg"
 import jaune from "../../images/jaune.jpg"
 import mercedes from "../../images/mercedes.jpg"
-import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
+
 
 export default function Main(){
     return (
@@ -17,25 +16,25 @@ export default function Main(){
             <Rectangle />
             <h1>Present your <span className="product">product</span></h1>
             <div className="box1">
-                <img src={sabat} />
+                <img src={sabat} alt="logosa"/>
             </div>
             <div className="box2">
-                <img src={manette} />
+                <img src={manette} alt="logom"/>
             </div>
             <div className="box3">
-                <img src={car} />   
+                <img src={car} alt="logoc"/>   
             </div>
             <div className="box4">
-                <img src={camera} />
+                <img src={camera} alt="logoca"/>
             </div>
             <div className="box5">
-            <img src={mercedes} />
+            <img src={mercedes} alt="logome"/>
             </div>
             <div className="box6">
-            <img src={nike} />
+            <img src={nike} alt="logon"/>
             </div>
             <div className="box7">
-            <img src={jaune} />
+            <img src={jaune} alt="logoj"/>
             </div>
             <div class="custom-shape-divider-bottom-1651213131">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
