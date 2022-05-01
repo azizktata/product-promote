@@ -15,7 +15,7 @@ export default function Pricing(){
    
     return (
         <div id="pricing" className="boss">
-            <h2>Affordable Pricing</h2>
+            <h2 className="price-txt">Affordable Pricing</h2>
             <h4>Bill me <span style={{color: "#6C5CE7"}}>monthly</span> • yearly </h4>
             <Container maxWidth="md" component="main">
         <Grid container spacing={5} alignItems="flex-end">

@@ -40,4 +40,26 @@ color: #ADADAD;
     }
     
 }
+@media screen and (max-width:450px){
+    .price-txt{
+        width: 100%;
+        padding-left: 24%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 50px;
+        letter-spacing: -1px;
+        color: #2D3436;
+    }
+    .boss h4{
+        margin: 2% 20%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 40px;
+        color: #ADADAD;
+    }
+}
 

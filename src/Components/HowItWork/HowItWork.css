@@ -111,6 +111,27 @@ width: 65%;
     }
    
 }
+@media screen and (max-width:450px){
+    .inside{
+        margin: 0% 0%;
+    }
+    .first-txt{
+        padding: 1% 2%;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #2D3436;
+        word-wrap: break-word;
+        width: 80%;
+     
+     }
+     .cards{
+        column-gap: 70px;
+    }
+    .card button{
+        width: 100%;
+    }
+}
 
 .custom-shape-divider-top-1651214626 {
     position: absolute;

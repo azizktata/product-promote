@@ -110,4 +110,21 @@ color: #6C5CE7;
 .socials{
     width: 10%;
 }
+
+}
+@media screen and (max-width:540px){
+    .email h5{
+        
+    font-size: 20px;
+    line-height: 35px;
+    
+    }
+    .info p{
+        font-size: small;
+    }
+    .info{
+        padding-left: 20%; 
+        width: 70%;
+    }
+    
 }

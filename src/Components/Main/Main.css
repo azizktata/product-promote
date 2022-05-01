@@ -105,4 +105,22 @@ img{
 .custom-shape-divider-bottom-1651213131 .shape-fill {
     fill: #FFF7DC;
 }
+@media screen and (max-width:450px){
+
+.Main h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 80px;
+    width: 100%;
+    margin: 0% 0%;
+    padding-left: 10%;
+    z-index: 1;
+    letter-spacing: -3px;
+
+    color: #2D3436;
+    text-shadow: 0px 4px 0px #FFFFFF;
+}
+}
 
